@@ -684,7 +684,7 @@ onEvent("button82","click",function(){
     if(ispvp){
         pvpdata.la += spent;
     }log("rs", spent);
-    log(1);
+    log("rb", 1);
     changeAccount(-spent);
     setText("text_area6", accountstring);
     hideElement("button82");
