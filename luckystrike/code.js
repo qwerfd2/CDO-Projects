@@ -8172,7 +8172,7 @@ function setChi(){
 function setEng(){
     playS(0);
     setText("pokeranno","Click Touch to play.");
-    setText("text_area230","31 Day 👑 Membership\n728,880 Credits\n\n7 Day 👑 Membership\n168,880 Credits\n\n1 Day 👑 Membership\n26,880 Credits");
+    setText("text_area230","31 Day 👑 Membership\n72,880 Credits\n\n7 Day 👑 Membership\n16,880 Credits\n\n1 Day 👑 Membership\n2,680 Credits");
     setText("text_area231", "Buy 👑 using Credit");
     setText("text_area232", "Shop");
     setText("drinkt5","Gift a Drink");
@@ -11255,6 +11255,7 @@ onEvent("text_area161","click",function(){
 onEvent("button250","click",function(){
     tempshop();
 });
+onEvent("button32","click",function(){open("https://qwerfd2.github.io/CDO-Projects/")});
 onEvent("button326","click",function(){
     if(spenting != 0){
         changeScreen("store");
