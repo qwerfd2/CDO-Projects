@@ -7991,7 +7991,7 @@ function setImage(val1, val2){
 }}
 function setChi(){
     playS(0);
-    setText("text_area230","31天👑会员\n728,880点数\n\n7天👑会员\n168,880点数\n\n1天👑会员\n26,880点数");
+    setText("text_area230","31天👑会员\n72,880点数\n\n7天👑会员\n16,880点数\n\n1天👑会员\n2,680点数");
     setText("text_area231", "用点数购买👑");
     setText("text_area232", "商店");
     sIurl("image41", "assets/china.png");
@@ -11273,13 +11273,13 @@ onEvent("button317","click",function(){
     setT("shoptext", ["👑 subscription unlocks the following:\n\n50,000 credit high bet limit (excluding PVP Arena)\n\n👑 exclusive chip\n\n👑 leaderboard badge\n\n6 👑 exclusive themes\n\n270 👑 avatars","👑订阅包括如下内容:\n\n5万点数高赌注限额 (不包括PVP竞技场)\n\n-👑独占筹码\n\n👑排行榜徽章\n\n6个👑独占主题\n\n270个👑头像",""]);
 });
 onEvent("button322","click",function(){
-    triggerShop(728880, 31); 
+    triggerShop(72880, 31); 
 });
 onEvent("button323","click",function(){
-    triggerShop(168880, 7); 
+    triggerShop(16880, 7); 
 });
 onEvent("button325","click",function(){
-    triggerShop(26880, 1);    
+    triggerShop(2680, 1);    
 });
 function triggerShop(credit, days){
     hideElement("button326");
