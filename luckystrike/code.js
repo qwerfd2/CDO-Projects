@@ -12818,7 +12818,7 @@ function playtz(price, times){
   if(ticket < price){
     insT("wxz");
     return;
-  }changeTicket(price);
+  }changeTicket(-price);
   processloc("za", price);
   pst++;
   log("zb", price);
